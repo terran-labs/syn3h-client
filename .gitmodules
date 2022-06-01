@@ -1,3 +1,6 @@
 [submodule "_Proprietary_Libraries"]
 	path = _PropLibs
 	url = git@github.com:terran-labs/syn3h-client-proprietary-libraries.git
+[submodule "_PropResources"]
+	path = _PropResources
+	url = git@github.com:terran-labs/syn3h-client-proprietary-resources.git
