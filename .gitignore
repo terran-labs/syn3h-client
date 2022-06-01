@@ -47,6 +47,8 @@ sysinfo.txt
 # You are responsible to license/install/configure each of the following assets
 # on your local machine if you want to work with them in this
 # otherwise-open-source codebase:
+/_Proprietary_Libraries/*
+/_Proprietary_Resources/*
 /[Aa]ssets/Digger
 /[Aa]ssets/Digger.meta
 /[Aa]ssets/Enviro - Sky and Weather
@@ -64,4 +66,13 @@ sysinfo.txt
 /[Aa]ssets/Wrld
 /[Aa]ssets/Wrld.meta
 /[Aa]ssets/google-services.json
-Packages/com.VisualDesignCafe.NatureRenderer-URP.json
+Packages/com.VisualDesignCafe.*
+Packages/com.vdc.*
+/[Aa]ssets/AQUAS 2020
+/[Aa]ssets/AutoTextureTilingTool
+/[Aa]ssets/AwesomeTechnologies
+/[Aa]ssets/Beautify
+/[Aa]ssets/Fingers
+/[Aa]ssets/HydroForm
+/[Aa]ssets/Monitor Components
+/[Aa]ssets/_Scenes
