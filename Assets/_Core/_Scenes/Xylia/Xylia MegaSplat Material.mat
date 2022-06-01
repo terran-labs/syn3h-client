@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Xylia MegaSplat Material
+  m_Shader: {fileID: 4800000, guid: 74355ae0939075d42a9afa41e8a462bb, type: 3}
+  m_ShaderKeywords: _DETAILNOISE _DISTANCENOISE _DISTANCERESAMPLE _GEOMAP _NORMALMAP
+    _PARALLAX _PERTEXUV _TERRAIN _TWOLAYER
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNoise:
+        m_Texture: {fileID: 2800000, guid: 891b020570b214b749f38d4857e26e46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 18700000, guid: c5ff8398c5afd4e72be1b6f0d40c91bc, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistanceNoise:
+        m_Texture: {fileID: 2800000, guid: 891b020570b214b749f38d4857e26e46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GeoTex:
+        m_Texture: {fileID: 2800000, guid: ca52edad06184094d877cec55ffb78ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 18700000, guid: acc90230b9e094b4584fd21f3a0448ba, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PropertyTex:
+        m_Texture: {fileID: 2800000, guid: 14ce58be7c764a64cb2484dd27e6e870, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PuddleNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainDropTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowDiff:
+        m_Texture: {fileID: 2800000, guid: a400e9d9f41b54114836447f3254fd96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowDistanceNoise:
+        m_Texture: {fileID: 2800000, guid: 891b020570b214b749f38d4857e26e46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowNormal:
+        m_Texture: {fileID: 2800000, guid: d5a94f65005e6464299c1686222fb9dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatControl:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplatParams:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Contrast: 0.837
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MaxPuddles: 1
+    - _MaxWetness: 1
+    - _Metallic: 0.176
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PuddleBlend: 6
+    - _RainIntensity: 1
+    - _SmoothnessTextureChannel: 0
+    - _SnowAmount: 0.808
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailNoiseScaleStrengthFade: {r: 8, g: 1, b: 50, a: 0}
+    - _DistanceFades: {r: 500, g: 2000, b: 1.0000118, a: 1.0000144}
+    - _DistanceFadesCached: {r: 500, g: 2000, b: 1.0000118, a: 1.0000144}
+    - _DistanceNoiseScaleStrengthFade: {r: 0.1, g: 0.75, b: 25, a: 200}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GeoParams: {r: 0.165, g: 0.007, b: 0, a: 0}
+    - _GlitterParams: {r: 80, g: 80, b: 0.21, a: 5}
+    - _GlitterSurfaces: {r: 1, g: 8, b: 1, a: 8}
+    - _GlobalPorosityWetness: {r: 0.4, g: 1, b: 0, a: 0}
+    - _Parallax: {r: 0.05, g: 20, b: 0, a: 0}
+    - _PerTexScaleRange: {r: 1, g: 3, b: 0, a: 0}
+    - _PuddleFlowParams: {r: 1, g: 1, b: 0.1, a: 0.5}
+    - _PuddleNormalFoam: {r: 0.6, g: 2, b: 0, a: 0}
+    - _PuddleTint: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _PuddleUVScales: {r: 80, g: 80, b: 80, a: 80}
+    - _RainUVScales: {r: 60, g: 60, b: 0, a: 0}
+    - _ResampleDistanceParams: {r: 0.25, g: 50, b: 100, a: 0}
+    - _SnowDistanceNoiseScaleStrengthFade: {r: 0.1, g: 0.5, b: 100, a: 150}
+    - _SnowHeightRange: {r: 25, g: 30, b: 0, a: 0}
+    - _SnowParams: {r: 0.082, g: 1, b: 0.5, a: 0.31}
+    - _SnowUVScales: {r: 50, g: 50, b: 0, a: 0}
+    - _SnowUpVector: {r: 0, g: 1, b: 0, a: 0}
+    - _TessData1: {r: 3, g: 0.6, b: 2, a: 40.7}
+    - _TessData2: {r: 25, g: 50, b: 0.7, a: 0.3}
+    - _TexScales: {r: 200, g: 200, b: 200, a: 200}

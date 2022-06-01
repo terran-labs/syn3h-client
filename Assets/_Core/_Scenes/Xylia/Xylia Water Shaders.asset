@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9954acc3fea28ca49a5863928bc7ff21, type: 3}
+  m_Name: Xylia Water Shaders
+  m_EditorClassIdentifier: 
+  shaders:
+  - {fileID: 4800000, guid: a05618f76fd077d4ca460a0db775923d, type: 3}
+  - {fileID: 4800000, guid: 6e051bd0adbb7ab4781f8e811a5f32a5, type: 3}
+  - {fileID: 4800000, guid: 2a90c549468a614479f5b278a9b3fe61, type: 3}
+  - {fileID: 4800000, guid: 43cf1e1f44bbcf54f98abf57da6b0d89, type: 3}
+  - {fileID: 4800000, guid: 1b1a3b16b48288a4a998cb0249799bf1, type: 3}
+  - {fileID: 4800000, guid: dae1702ae31a9d24fa4a62acff27b3ed, type: 3}
+  - {fileID: 4800000, guid: 55c22ae7c4ec3b34ebe33f324f3a8b1e, type: 3}
+  - {fileID: 4800000, guid: 8d38e78fce0c89d4e9ce1d42ad81cfe3, type: 3}
+  - {fileID: 4800000, guid: acfadd8bd051ba8488cb5ee10c89b7cb, type: 3}

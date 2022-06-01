@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1351907401380214}
+  m_IsPrefabAsset: 1
+--- !u!1 &1221135063548242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4839673259903332}
+  - component: {fileID: 20932302314210520}
+  m_Layer: 0
+  m_Name: Height Cam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1351907401380214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4565006219674734}
+  - component: {fileID: 114891370726193374}
+  - component: {fileID: 114785985286877016}
+  m_Layer: 4
+  m_Name: _Ocean
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1579313592991936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4770355437682136}
+  - component: {fileID: 20442709734794264}
+  m_Layer: 0
+  m_Name: Underwater Cam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4565006219674734
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1351907401380214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4839673259903332}
+  - {fileID: 4770355437682136}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4770355437682136
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1579313592991936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4565006219674734}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4839673259903332
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221135063548242}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 172, y: 100, z: 204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4565006219674734}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20442709734794264
+Camera:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1579313592991936}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 16
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!20 &20932302314210520
+Camera:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221135063548242}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1000, g: 1000, b: 1000, a: 1000}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 1
+  far clip plane: 500
+  field of view: 60
+  orthographic: 1
+  orthographic size: 1024
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 257
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &114785985286877016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1351907401380214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed9a340a86dc8cd469f53c45ea115c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinWaveAmplitude: 0.2
+  MaxWaveAmplitude: 5
+  WaveAmplitudeWindMultiplier: 1.25
+  UpdateTimeSmoothing: 0.25
+--- !u!114 &114891370726193374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1351907401380214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29dc974a4e8cfd459e73958ed6965ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveConstruction:
+    texSize: 1024
+    vertDensity: 1
+    patchSize: 600
+    apply: 0
+  waveSettings:
+    waterHeight: 0
+    amplitude: 1.3999953
+    frequency: 0.73000026
+    speed: 0.4
+    chop: 2
+    smooth: 1.5
+    vertComplexity: 1
+    pixComplexity: 4
+    direction: 0
+    opposingWaves: 1
+  surfaceFX:
+    waterColor: {r: 0.053678483, g: 0.049323734, b: 0.049876075, a: 0.91770595}
+    enableSpecular: 1
+    specularLight: {fileID: 0}
+    specularBrightness: 0.42
+    specularPower: 30
+    specularColor: {r: 0.86764705, g: 0.86764705, b: 0.86764705, a: 0.9}
+    reflectPower: 3.5
+    reflectBlend: 1
+  subsurfaceFX:
+    enableSSS: 1
+    subsurfaceColor: {r: 0.15484706, g: 0.43923953, b: 0.503, a: 1}
+    enableSSSViewLimit: 1
+    SSSPower: 7.5
+    SSSThreshold: 1.9
+    SSSHeightCutoff: 50
+  shoreFX:
+    enableShoreFX: 1
+    enableRefraction: 1
+    foamColor: {r: 0.3377814, g: 0.39297444, b: 0.4305057, a: 0.812969}
+    shallowColor: {r: 0, g: 0, b: 0, a: 1}
+    shallowColorMultiplier: 1
+    minWaveAmp: 0.25
+    shoreFoam:
+      lowFreq: 0.03
+      highFreq: 0.15
+      speed: 0.4
+      depthLowFreq: 3
+      depthHighFreq: 2
+    deepFoam:
+      enableDeepFoam: 1
+      lowFreq: 0.03
+      highFreq: 0.4
+      speed: 0.8
+      threshold: 7
+      lowFreqPower: 5
+      highFreqPower: 12
+    waterClarity: 50
+    waveDampDepth: 50
+  reflectFX:
+    skybox: {fileID: 0}
+    enableSSR: 1
+    enablePlanarReflect: 0
+    reflectTexSize: 512
+    reflectionDistortion: 0.49
+  underwater:
+    enableUnderwater: 1
+    fogTop: {r: 0.3, g: 0.54, b: 0.51000005, a: 1.2}
+    fogBottom: {r: 0.25, g: 0.45, b: 0.425, a: 1}
+    overlayColor: {r: 0.659, g: 1, b: 1, a: 1}
+    lipColor: {r: 0.375, g: 0.675, b: 0.639, a: 1}
+    waveColor: {r: 0.25, g: 0.5, b: 0.5, a: 1}
+    fogDensity: 0.2
+    fogHeightDensity: 0.4

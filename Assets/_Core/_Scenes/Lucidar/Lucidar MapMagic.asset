@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bc43e142692db4e92eef81e1903ca4, type: 3}
+  m_Name: Lucidar MapMagic
+  m_EditorClassIdentifier: 
+  oldId: 0
+  oldCount: 0
+  guiScroll: {x: 323.66467, y: 652.25195}
+  guiZoom: 0.7209778
+  serializedVersion: 192
+  classes:
+  - "<MapMagic.Generator[] length=14>\r\n\t<item0 type=MapMagic.Generator link=1/>\r\n\t<item1
+    type=MapMagic.Generator link=11/>\r\n\t<item2 type=MapMagic.Generator link=33/>\r\n\t<item3
+    type=MapMagic.Generator link=26/>\r\n\t<item4 type=MapMagic.Generator link=23/>\r\n\t<item5
+    type=MapMagic.Generator link=59/>\r\n\t<item6 type=MapMagic.Generator link=54/>\r\n\t<item7
+    type=MapMagic.Generator link=68/>\r\n\t<item8 type=MapMagic.Generator link=20/>\r\n\t<item9
+    type=MapMagic.Generator link=6/>\r\n\t<item10 type=MapMagic.Generator link=77/>\r\n\t<item11
+    type=MapMagic.Generator link=83/>\r\n\t<item12 type=MapMagic.Generator link=88/>\r\n\t<item13
+    type=MapMagic.Generator link=65/>\r\n</MapMagic.Generator[]>\r\n"
+  - "<MapMagic.CurveGenerator>\r\n\t<curve type=UnityEngine.AnimationCurve link=2/>\r\n\t<extended
+    type=System.Boolean value=True/>\r\n\t<min type=UnityEngine.Vector2 x=0 y=0/>\r\n\t<max
+    type=UnityEngine.Vector2 x=1 y=1/>\r\n\t<input type=MapMagic.Generator+Input link=4/>\r\n\t<maskIn
+    type=MapMagic.Generator+Input link=9/>\r\n\t<output type=MapMagic.Generator+Output
+    link=10/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=313.3162 y=85.58763 width=160
+    height=120/>\r\n</MapMagic.CurveGenerator>\r\n"
+  - "<UnityEngine.AnimationCurve>\r\n\t<keys type=UnityEngine.Keyframe[] link=3/>\r\n\t<preWrapMode
+    type=UnityEngine.WrapMode value=8/>\r\n\t<postWrapMode type=UnityEngine.WrapMode
+    value=8/>\r\n</UnityEngine.AnimationCurve>\r\n"
+  - "<UnityEngine.Keyframe[] length=2>\r\n\t<item0 type=UnityEngine.Keyframe time=0
+    value=0 in=0 out=0 mode=0/>\r\n\t<item1 type=UnityEngine.Keyframe time=1 value=1
+    in=2.5 out=1 mode=0/>\r\n</UnityEngine.Keyframe[]>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=5/>\r\n\t<linkGen type=MapMagic.Generator
+    link=6/>\r\n\t<guiRect type=UnityEngine.Rect x=308.3162 y=105.5876 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=207.7545 y=28.82611 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.NoiseGenerator2>\r\n\t<seed type=System.Int32 value=12345/>\r\n\t<high
+    type=System.Single value=0.8/>\r\n\t<low type=System.Single value=0.1/>\r\n\t<size
+    type=System.Single value=200/>\r\n\t<detail type=System.Single value=0.5/>\r\n\t<turbulence
+    type=System.Single value=0/>\r\n\t<offset type=UnityEngine.Vector2 x=0 y=0/>\r\n\t<type
+    type=MapMagic.NoiseGenerator2+Type value=0/>\r\n\t<input type=MapMagic.Generator+Input
+    link=7/>\r\n\t<maskIn type=MapMagic.Generator+Input link=8/>\r\n\t<output type=MapMagic.Generator+Output
+    link=5/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=60.75446 y=8.826109 width=160
+    height=210/>\r\n</MapMagic.NoiseGenerator2>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=55.75446 y=28.82611 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=55.75446 y=48.82611 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=308.3162 y=125.5876 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=460.3162 y=105.5876 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.VoxelandOutput>\r\n\t<layers type=MapMagic.VoxelandOutput+Layer[] link=12/>\r\n\t<areaOutput
+    type=MapMagic.Generator+Output link=75/>\r\n\t<heightOut type=MapMagic.Generator+Output
+    link=76/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=1771.602 y=-95.03073 width=160
+    height=21/>\r\n\t<layer type=System.Single value=0/>\r\n</MapMagic.VoxelandOutput>\r\n"
+  - "<MapMagic.VoxelandOutput+Layer[] length=5>\r\n\t<item0 type=MapMagic.VoxelandOutput+Layer
+    link=13/>\r\n\t<item1 type=MapMagic.VoxelandOutput+Layer link=17/>\r\n\t<item2
+    type=MapMagic.VoxelandOutput+Layer link=43/>\r\n\t<item3 type=MapMagic.VoxelandOutput+Layer
+    link=47/>\r\n\t<item4 type=MapMagic.VoxelandOutput+Layer link=51/>\r\n</MapMagic.VoxelandOutput+Layer[]>\r\n"
+  - "<MapMagic.VoxelandOutput+Layer>\r\n\t<name type=System.String value=Grass/>\r\n\t<input
+    type=MapMagic.Generator+Input link=14/>\r\n\t<heightInput type=MapMagic.Generator+Input
+    link=15/>\r\n\t<output type=MapMagic.Generator+Output link=16/>\r\n\t<enabled
+    type=System.Boolean value=True/>\r\n\t<blockType type=System.Int32 value=0/>\r\n\t<paintThickness
+    type=System.Int32 value=5/>\r\n</MapMagic.VoxelandOutput+Layer>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=10/>\r\n\t<linkGen type=MapMagic.Generator
+    link=1/>\r\n\t<guiRect type=UnityEngine.Rect x=1766.602 y=89.96927 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1766.602 y=126.9693 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1918.602 y=89.96927 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.VoxelandOutput+Layer>\r\n\t<name type=System.String value=Rock\\_1/>\r\n\t<input
+    type=MapMagic.Generator+Input link=18/>\r\n\t<heightInput type=MapMagic.Generator+Input
+    link=41/>\r\n\t<output type=MapMagic.Generator+Output link=42/>\r\n\t<enabled
+    type=System.Boolean value=True/>\r\n\t<blockType type=System.Int32 value=3/>\r\n\t<paintThickness
+    type=System.Int32 value=5/>\r\n</MapMagic.VoxelandOutput+Layer>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=19/>\r\n\t<linkGen type=MapMagic.Generator
+    link=20/>\r\n\t<guiRect type=UnityEngine.Rect x=1766.602 y=58.96927 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1550.366 y=-26.55341 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.CavityGenerator1>\r\n\t<input type=MapMagic.Generator+Input link=21/>\r\n\t<maskIn
+    type=MapMagic.Generator+Input link=40/>\r\n\t<output type=MapMagic.Generator+Output
+    link=19/>\r\n\t<type type=MapMagic.CavityGenerator1+CavityType value=0/>\r\n\t<intensity
+    type=System.Single value=1/>\r\n\t<spread type=System.Single value=5/>\r\n\t<normalize
+    type=System.Boolean value=True/>\r\n\t<safeBorders type=System.Int32 value=3/>\r\n\t<enabled
+    type=System.Boolean value=True/>\r\n\t<mandatory type=System.Boolean value=False/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1403.366 y=-46.55341 width=160 height=174/>\r\n</MapMagic.CavityGenerator1>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=22/>\r\n\t<linkGen type=MapMagic.Generator
+    link=23/>\r\n\t<guiRect type=UnityEngine.Rect x=1398.366 y=-26.55341 width=18
+    height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1240.055 y=-131.9296 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.ErosionGenerator>\r\n\t<heightIn type=MapMagic.Generator+Input link=24/>\r\n\t<maskIn
+    type=MapMagic.Generator+Input link=37/>\r\n\t<heightOut type=MapMagic.Generator+Output
+    link=22/>\r\n\t<cliffOut type=MapMagic.Generator+Output link=38/>\r\n\t<sedimentOut
+    type=MapMagic.Generator+Output link=39/>\r\n\t<iterations type=System.Int32 value=1/>\r\n\t<terrainDurability
+    type=System.Single value=0.9/>\r\n\t<erosionAmount type=System.Single value=1/>\r\n\t<sedimentAmount
+    type=System.Single value=0.75/>\r\n\t<fluidityIterations type=System.Int32 value=3/>\r\n\t<ruffle
+    type=System.Single value=0.4/>\r\n\t<safeBorders type=System.Int32 value=10/>\r\n\t<cliffOpacity
+    type=System.Single value=1/>\r\n\t<sedimentOpacity type=System.Single value=1/>\r\n\t<enabled
+    type=System.Boolean value=False/>\r\n\t<mandatory type=System.Boolean value=False/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1093.055 y=-151.9296 width=160 height=280/>\r\n</MapMagic.ErosionGenerator>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=25/>\r\n\t<linkGen type=MapMagic.Generator
+    link=26/>\r\n\t<guiRect type=UnityEngine.Rect x=1088.055 y=-131.9296 width=18
+    height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=974.3217 y=-45.42267 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.BlendGenerator2>\r\n\t<layers type=MapMagic.BlendGenerator2+Layer[]
+    link=27/>\r\n\t<guiSelected type=System.Int32 value=0/>\r\n\t<maskInput type=MapMagic.Generator+Input
+    link=36/>\r\n\t<output type=MapMagic.Generator+Output link=25/>\r\n\t<inputsNum
+    type=System.Int32 value=2/>\r\n\t<enabled type=System.Boolean value=False/>\r\n\t<mandatory
+    type=System.Boolean value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=827.3217
+    y=-65.42267 width=160 height=119/>\r\n</MapMagic.BlendGenerator2>\r\n"
+  - "<MapMagic.BlendGenerator2+Layer[] length=2>\r\n\t<item0 type=MapMagic.BlendGenerator2+Layer
+    link=28/>\r\n\t<item1 type=MapMagic.BlendGenerator2+Layer link=30/>\r\n</MapMagic.BlendGenerator2+Layer[]>\r\n"
+  - "<MapMagic.BlendGenerator2+Layer>\r\n\t<input type=MapMagic.Generator+Input link=29/>\r\n\t<algorithm
+    type=MapMagic.BlendGenerator2+Algorithm value=1/>\r\n\t<opacity type=System.Single
+    value=1/>\r\n</MapMagic.BlendGenerator2+Layer>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=10/>\r\n\t<linkGen type=MapMagic.Generator
+    link=1/>\r\n\t<guiRect type=UnityEngine.Rect x=822.3217 y=29.57733 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.BlendGenerator2+Layer>\r\n\t<input type=MapMagic.Generator+Input link=31/>\r\n\t<algorithm
+    type=MapMagic.BlendGenerator2+Algorithm value=7/>\r\n\t<opacity type=System.Single
+    value=1/>\r\n</MapMagic.BlendGenerator2+Layer>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=32/>\r\n\t<linkGen type=MapMagic.Generator
+    link=33/>\r\n\t<guiRect type=UnityEngine.Rect x=822.3217 y=3.577332 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=698.1855 y=162.6323 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.BlurGenerator>\r\n\t<input type=MapMagic.Generator+Input link=34/>\r\n\t<maskIn
+    type=MapMagic.Generator+Input link=35/>\r\n\t<output type=MapMagic.Generator+Output
+    link=32/>\r\n\t<iterations type=System.Int32 value=3/>\r\n\t<intensity type=System.Single
+    value=1/>\r\n\t<loss type=System.Int32 value=20/>\r\n\t<safeBorders type=System.Int32
+    value=1/>\r\n\t<enabled type=System.Boolean value=False/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=551.1855 y=142.6323 width=160
+    height=138/>\r\n</MapMagic.BlurGenerator>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=10/>\r\n\t<linkGen type=MapMagic.Generator
+    link=1/>\r\n\t<guiRect type=UnityEngine.Rect x=546.1855 y=162.6323 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=546.1855 y=182.6323 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=822.3217 y=-45.42267 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1088.055 y=-111.9296 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1240.055 y=-111.9296 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1240.055 y=-91.9296 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1398.366 y=-6.55341 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=163.4788 y=-109.7747 width=0 height=0/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1918.602 y=58.96927 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.VoxelandOutput+Layer>\r\n\t<name type=System.String value=Rock\\_2/>\r\n\t<input
+    type=MapMagic.Generator+Input link=44/>\r\n\t<heightInput type=MapMagic.Generator+Input
+    link=45/>\r\n\t<output type=MapMagic.Generator+Output link=46/>\r\n\t<enabled
+    type=System.Boolean value=False/>\r\n\t<blockType type=System.Int32 value=3/>\r\n\t<paintThickness
+    type=System.Int32 value=5/>\r\n</MapMagic.VoxelandOutput+Layer>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=25/>\r\n\t<linkGen type=MapMagic.Generator
+    link=26/>\r\n\t<guiRect type=UnityEngine.Rect x=1766.602 y=27.96927 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1092.602 y=-215.0308 width=0 height=0/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1918.602 y=27.96927 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.VoxelandOutput+Layer>\r\n\t<name type=System.String value=Sediment/>\r\n\t<input
+    type=MapMagic.Generator+Input link=48/>\r\n\t<heightInput type=MapMagic.Generator+Input
+    link=49/>\r\n\t<output type=MapMagic.Generator+Output link=50/>\r\n\t<enabled
+    type=System.Boolean value=False/>\r\n\t<blockType type=System.Int32 value=1/>\r\n\t<paintThickness
+    type=System.Int32 value=5/>\r\n</MapMagic.VoxelandOutput+Layer>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=22/>\r\n\t<linkGen type=MapMagic.Generator
+    link=23/>\r\n\t<guiRect type=UnityEngine.Rect x=1766.602 y=-3.030731 width=18
+    height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1766.602 y=35.96923 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1918.602 y=-3.030731 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.VoxelandOutput+Layer>\r\n\t<name type=System.String value=Caves/>\r\n\t<input
+    type=MapMagic.Generator+Input link=52/>\r\n\t<heightInput type=MapMagic.Generator+Input
+    link=63/>\r\n\t<output type=MapMagic.Generator+Output link=74/>\r\n\t<enabled
+    type=System.Boolean value=True/>\r\n\t<blockType type=System.Int32 value=5/>\r\n\t<paintThickness
+    type=System.Int32 value=5/>\r\n</MapMagic.VoxelandOutput+Layer>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=53/>\r\n\t<linkGen type=MapMagic.Generator
+    link=54/>\r\n\t<guiRect type=UnityEngine.Rect x=1766.602 y=-51.03073 width=18
+    height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1585.786 y=-423.5316 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.CurveGenerator>\r\n\t<curve type=UnityEngine.AnimationCurve link=55/>\r\n\t<extended
+    type=System.Boolean value=True/>\r\n\t<min type=UnityEngine.Vector2 x=0 y=0/>\r\n\t<max
+    type=UnityEngine.Vector2 x=1 y=1/>\r\n\t<input type=MapMagic.Generator+Input link=57/>\r\n\t<maskIn
+    type=MapMagic.Generator+Input link=62/>\r\n\t<output type=MapMagic.Generator+Output
+    link=53/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=1438.786 y=-443.5316 width=160
+    height=120/>\r\n</MapMagic.CurveGenerator>\r\n"
+  - "<UnityEngine.AnimationCurve>\r\n\t<keys type=UnityEngine.Keyframe[] link=56/>\r\n\t<preWrapMode
+    type=UnityEngine.WrapMode value=8/>\r\n\t<postWrapMode type=UnityEngine.WrapMode
+    value=8/>\r\n</UnityEngine.AnimationCurve>\r\n"
+  - "<UnityEngine.Keyframe[] length=2>\r\n\t<item0 type=UnityEngine.Keyframe time=0.4285724
+    value=0 in=1.208337 out=1.208337 mode=0/>\r\n\t<item1 type=UnityEngine.Keyframe
+    time=0.5532375 value=0 in=-1.250435 out=-1.250435 mode=0/>\r\n</UnityEngine.Keyframe[]>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=58/>\r\n\t<linkGen type=MapMagic.Generator
+    link=59/>\r\n\t<guiRect type=UnityEngine.Rect x=1433.786 y=-423.5316 width=18
+    height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1254.991 y=-415.9644 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.NoiseGenerator2>\r\n\t<seed type=System.Int32 value=123456/>\r\n\t<high
+    type=System.Single value=1/>\r\n\t<low type=System.Single value=0/>\r\n\t<size
+    type=System.Single value=150/>\r\n\t<detail type=System.Single value=0/>\r\n\t<turbulence
+    type=System.Single value=0/>\r\n\t<offset type=UnityEngine.Vector2 x=0 y=0/>\r\n\t<type
+    type=MapMagic.NoiseGenerator2+Type value=0/>\r\n\t<input type=MapMagic.Generator+Input
+    link=60/>\r\n\t<maskIn type=MapMagic.Generator+Input link=61/>\r\n\t<output type=MapMagic.Generator+Output
+    link=58/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=1107.991 y=-435.9644 width=160
+    height=210/>\r\n</MapMagic.NoiseGenerator2>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1102.991 y=-415.9644 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1102.991 y=-395.9644 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1433.786 y=-403.5316 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=64/>\r\n\t<linkGen type=MapMagic.Generator
+    link=65/>\r\n\t<guiRect type=UnityEngine.Rect x=1766.602 y=-33.03073 width=18
+    height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1689.684 y=-239.9027 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.BlurGenerator>\r\n\t<input type=MapMagic.Generator+Input link=66/>\r\n\t<maskIn
+    type=MapMagic.Generator+Input link=73/>\r\n\t<output type=MapMagic.Generator+Output
+    link=64/>\r\n\t<iterations type=System.Int32 value=1/>\r\n\t<intensity type=System.Single
+    value=1/>\r\n\t<loss type=System.Int32 value=1/>\r\n\t<safeBorders type=System.Int32
+    value=5/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=1542.684 y=-259.9027 width=160
+    height=138/>\r\n</MapMagic.BlurGenerator>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=67/>\r\n\t<linkGen type=MapMagic.Generator
+    link=68/>\r\n\t<guiRect type=UnityEngine.Rect x=1537.684 y=-239.9027 width=18
+    height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1476.271 y=-214.7392 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.CurveGenerator>\r\n\t<curve type=UnityEngine.AnimationCurve link=69/>\r\n\t<extended
+    type=System.Boolean value=True/>\r\n\t<min type=UnityEngine.Vector2 x=0 y=0/>\r\n\t<max
+    type=UnityEngine.Vector2 x=1 y=1/>\r\n\t<input type=MapMagic.Generator+Input link=71/>\r\n\t<maskIn
+    type=MapMagic.Generator+Input link=72/>\r\n\t<output type=MapMagic.Generator+Output
+    link=67/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=1329.271 y=-234.7392 width=160
+    height=120/>\r\n</MapMagic.CurveGenerator>\r\n"
+  - "<UnityEngine.AnimationCurve>\r\n\t<keys type=UnityEngine.Keyframe[] link=70/>\r\n\t<preWrapMode
+    type=UnityEngine.WrapMode value=8/>\r\n\t<postWrapMode type=UnityEngine.WrapMode
+    value=8/>\r\n</UnityEngine.AnimationCurve>\r\n"
+  - "<UnityEngine.Keyframe[] length=2>\r\n\t<item0 type=UnityEngine.Keyframe time=0
+    value=0.2405777 in=0 out=0 mode=0/>\r\n\t<item1 type=UnityEngine.Keyframe time=0.2365492
+    value=0.03497314 in=0 out=0 mode=0/>\r\n</UnityEngine.Keyframe[]>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output link=10/>\r\n\t<linkGen type=MapMagic.Generator
+    link=1/>\r\n\t<guiRect type=UnityEngine.Rect x=1324.271 y=-214.7392 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1324.271 y=-194.7392 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1537.684 y=-219.9027 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1918.602 y=-70.03073 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=3/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1034.602 y=-208.0308 width=0 height=0/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=0 y=0 width=0 height=0/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.VoxelandGrassOutput>\r\n\t<layers type=MapMagic.VoxelandGrassOutput+Layer[]
+    link=78/>\r\n\t<enabled type=System.Boolean value=False/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=1991.788 y=268.7939 width=160
+    height=21/>\r\n\t<layer type=System.Single value=0/>\r\n</MapMagic.VoxelandGrassOutput>\r\n"
+  - "<MapMagic.VoxelandGrassOutput+Layer[] length=2>\r\n\t<item0 type=MapMagic.VoxelandGrassOutput+Layer
+    link=79/>\r\n\t<item1 type=MapMagic.VoxelandGrassOutput+Layer link=81/>\r\n</MapMagic.VoxelandGrassOutput+Layer[]>\r\n"
+  - "<MapMagic.VoxelandGrassOutput+Layer>\r\n\t<input type=MapMagic.Generator+Input
+    link=80/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<density type=System.Single
+    value=1/>\r\n</MapMagic.VoxelandGrassOutput+Layer>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1986.788 y=324.7939 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.VoxelandGrassOutput+Layer>\r\n\t<input type=MapMagic.Generator+Input
+    link=82/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<density type=System.Single
+    value=1/>\r\n</MapMagic.VoxelandGrassOutput+Layer>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1986.788 y=293.7939 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.ForestGenerator1>\r\n\t<seedlingsIn type=MapMagic.Generator+Input link=84/>\r\n\t<otherTreesIn
+    type=MapMagic.Generator+Input link=85/>\r\n\t<soilIn type=MapMagic.Generator+Input
+    link=86/>\r\n\t<treesOut type=MapMagic.Generator+Output link=87/>\r\n\t<years
+    type=System.Int32 value=50/>\r\n\t<density type=System.Single value=3/>\r\n\t<fecundity
+    type=System.Single value=0.5/>\r\n\t<seedDist type=System.Single value=10/>\r\n\t<reproductiveAge
+    type=System.Single value=10/>\r\n\t<survivalRate type=System.Single value=0.5/>\r\n\t<lifeAge
+    type=System.Single value=100/>\r\n\t<enabled type=System.Boolean value=True/>\r\n\t<mandatory
+    type=System.Boolean value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=1420.419
+    y=463.6723 width=160 height=212/>\r\n</MapMagic.ForestGenerator1>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=1/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1415.419 y=483.6723 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=1/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1415.419 y=503.6723 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1415.419 y=523.6723 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=1/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1567.419 y=483.6723 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  - "<MapMagic.NoiseGenerator2>\r\n\t<seed type=System.Int32 value=12345/>\r\n\t<high
+    type=System.Single value=1/>\r\n\t<low type=System.Single value=0/>\r\n\t<size
+    type=System.Single value=200/>\r\n\t<detail type=System.Single value=0.5/>\r\n\t<turbulence
+    type=System.Single value=0/>\r\n\t<offset type=UnityEngine.Vector2 x=0 y=0/>\r\n\t<type
+    type=MapMagic.NoiseGenerator2+Type value=0/>\r\n\t<input type=MapMagic.Generator+Input
+    link=89/>\r\n\t<maskIn type=MapMagic.Generator+Input link=90/>\r\n\t<output type=MapMagic.Generator+Output
+    link=91/>\r\n\t<enabled type=System.Boolean value=False/>\r\n\t<mandatory type=System.Boolean
+    value=False/>\r\n\t<guiRect type=UnityEngine.Rect x=1692.419 y=341.6723 width=160
+    height=210/>\r\n</MapMagic.NoiseGenerator2>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1687.419 y=361.6723 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Input>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<link
+    type=MapMagic.Generator+Output null/>\r\n\t<linkGen type=MapMagic.Generator null/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1687.419 y=381.6723 width=18 height=18/>\r\n</MapMagic.Generator+Input>\r\n"
+  - "<MapMagic.Generator+Output>\r\n\t<type type=MapMagic.Generator+InoutType value=0/>\r\n\t<guiRect
+    type=UnityEngine.Rect x=1839.419 y=361.6723 width=18 height=18/>\r\n</MapMagic.Generator+Output>\r\n"
+  objects: []
+  floats: []
+  setDirty: 1
+  serializer:
+    entities: []
+  listNum: 0

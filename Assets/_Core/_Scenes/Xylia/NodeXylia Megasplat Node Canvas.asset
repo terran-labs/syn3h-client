@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0c2324a9ab1224ebe3edad393e3544, type: 3}
+  m_Name: NodeXylia Megasplat Node Canvas
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 114724152199589980}
+  - {fileID: 114272676157634542}
+  editorStates:
+  - {fileID: 114796405417081288}
+  livesInScene: 0
+--- !u!114 &114057098291066546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+  m_Name: Wetness
+  m_EditorClassIdentifier: 
+  body: {fileID: 114724152199589980}
+  side: 4
+  sidePosition: 85
+  sideOffset: 0
+  connection: {fileID: 0}
+  typeID: Float
+--- !u!114 &114268216382326004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e7026d0da7df848ab67d517ac12d74, type: 3}
+  m_Name: Texture
+  m_EditorClassIdentifier: 
+  body: {fileID: 114272676157634542}
+  side: 2
+  sidePosition: 20
+  sideOffset: 0
+  connections:
+  - {fileID: 114365747500064030}
+  - {fileID: 114338585486262840}
+  typeID: Int
+  calculationBlockade: 0
+--- !u!114 &114272676157634542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a58d3ee4f4d44035bab4b51f677cbca, type: 3}
+  m_Name: Texture Cluster
+  m_EditorClassIdentifier: 
+  compiled: 1
+  rect:
+    serializedVersion: 2
+    x: -270
+    y: 9
+    width: 200
+    height: 195
+  nodeKnobs:
+  - {fileID: 114358872107237166}
+  - {fileID: 114268216382326004}
+  Inputs:
+  - {fileID: 114358872107237166}
+  Outputs:
+  - {fileID: 114268216382326004}
+  clusterIdx: 9
+  clusterNoiseScales: {x: 1, y: 0.05}
+  propName: _Prop_3
+  indexName: _Prop_1
+  index2Name: _Prop_2
+  indexes: 150000001600000017000000
+  clusterPropName: 
+--- !u!114 &114338585486262840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+  m_Name: Bottom Layer
+  m_EditorClassIdentifier: 
+  body: {fileID: 114724152199589980}
+  side: 4
+  sidePosition: 49
+  sideOffset: 0
+  connection: {fileID: 114268216382326004}
+  typeID: Int
+--- !u!114 &114358872107237166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+  m_Name: Noise
+  m_EditorClassIdentifier: 
+  body: {fileID: 114272676157634542}
+  side: 4
+  sidePosition: 31
+  sideOffset: 0
+  connection: {fileID: 0}
+  typeID: Float
+--- !u!114 &114365747500064030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+  m_Name: Top Layer
+  m_EditorClassIdentifier: 
+  body: {fileID: 114724152199589980}
+  side: 4
+  sidePosition: 31
+  sideOffset: 0
+  connection: {fileID: 114268216382326004}
+  typeID: Int
+--- !u!114 &114713103001000916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+  m_Name: Puddles
+  m_EditorClassIdentifier: 
+  body: {fileID: 114724152199589980}
+  side: 4
+  sidePosition: 103
+  sideOffset: 0
+  connection: {fileID: 0}
+  typeID: Float
+--- !u!114 &114724152199589980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c053607a4f3304a50968c8af75a258e2, type: 3}
+  m_Name: MegaSplatOutput
+  m_EditorClassIdentifier: 
+  compiled: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 250
+    height: 200
+  nodeKnobs:
+  - {fileID: 114365747500064030}
+  - {fileID: 114338585486262840}
+  - {fileID: 114953913304107932}
+  - {fileID: 114057098291066546}
+  - {fileID: 114713103001000916}
+  Inputs:
+  - {fileID: 114365747500064030}
+  - {fileID: 114338585486262840}
+  - {fileID: 114953913304107932}
+  - {fileID: 114057098291066546}
+  - {fileID: 114713103001000916}
+  Outputs: []
+  config: {fileID: 11400000, guid: 9b6223bfbca914c77a5201fee2ce553b, type: 2}
+  generateCavity: 0
+  cavitySamples: 16
+  cavityDistance: 1
+--- !u!114 &114796405417081288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 11400000}
+  parentEditor: {fileID: 0}
+  drawing: 1
+  selectedNode: {fileID: 114272676157634542}
+  panOffset: {x: 0, y: 0}
+  zoom: 1
+--- !u!114 &114953913304107932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+  m_Name: Blend
+  m_EditorClassIdentifier: 
+  body: {fileID: 114724152199589980}
+  side: 4
+  sidePosition: 67
+  sideOffset: 0
+  connection: {fileID: 0}
+  typeID: Float

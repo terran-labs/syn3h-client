@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Vehicle Cockpit Night
+  m_Shader: {fileID: 4800000, guid: c9e994a922c6d9b43bfe84b1c9c9593c, type: 3}
+  m_ShaderKeywords: _EDGE_DETECTION_ON _FRESNEL_ON _MAKE_SAME_AS_FRESNEL_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - <noninit>:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient_Color:
+        m_Texture: {fileID: 2800000, guid: 857a8e9195b715848abbbbb790d378b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient_Edge_Detection:
+        m_Texture: {fileID: 2800000, guid: 3feadd92e54464347807408a77bf84d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient_Texture_Decay:
+        m_Texture: {fileID: 2800000, guid: 5e5f7fdec6ba5a24dbd26d977985f37c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 5a16161a342da954894bee9e0157a74b, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - <noninit>: 0
+    - _Brightness: 10
+    - _Cutoff: 0.5
+    - _Decay: 0.05
+    - _Edge_Detection: 1
+    - _Edge_Detection_Distance: 0.11
+    - _Fresnel: 1
+    - _Fresnel_Exponent: 2
+    - _Gradient_Or_Solid_Color: 0
+    - _Intensity: 1
+    - _Make_Same_As_Fresnel: 1
+    - _Pan_Speed: 0
+    - _Soft_Texture: 0
+    m_Colors:
+    - <noninit>: {r: 0, g: 6.7432765e+13, b: 0, a: 6.7432496e+13}
+    - _Solid_Color: {r: 0.078431375, g: 0, b: 0.11764706, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
