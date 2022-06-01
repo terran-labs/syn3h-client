@@ -1,0 +1,67 @@
+# Syn3h
+/_[Bb]uild/*
+
+# OS auto-generated files
+.DS_Store
+*.db
+
+# Unity3D auto-generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]nityGenerated/
+/[Uu]serSettings/
+/[Ll]ocal[Cc]ache/
+
+# Auto-generated Visual Studio or MonoDevelop solution and project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.apk
+*.cd
+.consulo/
+*.svd
+*.pdb
+*.opendb
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.exe
+*.unitypackage
+
+# Proprietery assets excluded from this repo by ./_Shell/SymlinkProprietaryAssets.sh
+# You are responsible to license/install/configure each of the following assets
+# on your local machine if you want to work with them in this
+# otherwise-open-source codebase:
+/[Aa]ssets/Digger
+/[Aa]ssets/Digger.meta
+/[Aa]ssets/Enviro - Sky and Weather
+/[Aa]ssets/Enviro - Sky and Weather.meta
+/[Aa]ssets/GoogleService-Info.plist
+/[Aa]ssets/MapMagic
+/[Aa]ssets/MapMagic.meta
+/[Aa]ssets/MicroSplat
+/[Aa]ssets/MicroSplat.meta
+/[Aa]ssets/NWH
+/[Aa]ssets/NWH.meta
+/[Aa]ssets/README.md
+/[Aa]ssets/Visual Design Cafe
+/[Aa]ssets/Visual Design Cafe.meta
+/[Aa]ssets/Wrld
+/[Aa]ssets/Wrld.meta
+/[Aa]ssets/google-services.json
+Packages/com.VisualDesignCafe.NatureRenderer-URP.json
